@@ -16,10 +16,10 @@ const FriendGroup = db.define('FriendGroup', {
         type: Sequelize.INTEGER,
         allowNull: false,
       },
-      category: {
+    category: {
         type: Sequelize.STRING,
         allowNull: false,
-      },
+    },
   },
   {
     tableName: 'FriendGroups',
