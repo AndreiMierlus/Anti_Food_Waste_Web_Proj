@@ -1,5 +1,5 @@
-import FriendGroup from "../entity/FriendGroup";
-import User from "../entity/User";
+import FriendGroup from "../entity/FriendGroup.js";
+import User from "../entity/User.js";
 
 async function getFriendshipRelations(userId) {
     try {

@@ -1,5 +1,5 @@
-import FriendRequest from "../entity/FriendRequest";
-import User from "../entity/User";
+import FriendRequest from "../entity/FriendRequest.js";
+import User from "../entity/User.js";
 
 async function getAllReceivedFriendRequests(userId) {
     try {

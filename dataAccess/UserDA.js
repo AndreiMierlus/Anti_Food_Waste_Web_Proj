@@ -1,4 +1,4 @@
-import User from "../entity/User";
+import User from "../entity/User.js";
 
 async function getUsers() {
     return await User.findAll();

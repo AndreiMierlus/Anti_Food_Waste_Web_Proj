@@ -1,5 +1,5 @@
-import Item from "../entity/Item";
-import User from "../entity/User";
+import Item from "../entity/Item.js";
+import User from "../entity/User.js";
 
 async function getItems() {
     return await Item.findAll();

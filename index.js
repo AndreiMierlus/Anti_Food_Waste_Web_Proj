@@ -6,7 +6,7 @@ import userRouter from './routes/UserRouter.js';
 import itemRouter from './routes/ItemRouter.js';
 import friendRequestRouter from './routes/FriendRequestRouter.js';
 import createDbRouter from './routes/createDBRouter.js';
-import itemClaimRouter from './routes/ItemClaimRouter';      
+import itemClaimRouter from './routes/ItemClaimRouter.js';      
 import friendGroupRouter from './routes/FriendGroupRouter.js';
 
 env.config();

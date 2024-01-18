@@ -1,4 +1,4 @@
-import db from '../db';
+import db from '../db.js';
 import Sequelize from 'sequelize';
 
 const FriendGroup = db.define('FriendGroup', {

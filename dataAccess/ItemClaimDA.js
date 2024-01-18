@@ -1,6 +1,6 @@
-import ItemClaim from '../models/ItemClaim.js';
-import Item from '../entity/Item';
-import User from '../entity/User';
+import ItemClaim from '../entity/ItemClaim.js';
+import Item from '../entity/Item.js';
+import User from '../entity/User.js';
 
 async function getItemClaims() {
     return await ItemClaim.findAll({ include: ['Sender', 'Receiver', 'Item'] });

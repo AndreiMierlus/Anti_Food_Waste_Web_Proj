@@ -1,10 +1,10 @@
 import mysql from 'mysql2/promise';
 import env from 'dotenv';
-import User from './User';
-import Item from './Item';
-import ItemClaim from './ItemClaim';
-import FriendGroup from './FriendGroup';
-import FriendRequest from './FriendRequest';
+import User from './User.js';
+import Item from './Item.js';
+import ItemClaim from './ItemClaim.js';
+import FriendGroup from './FriendGroup.js';
+import FriendRequest from './FriendRequest.js';
 
 env.config();
 
@@ -13,8 +13,8 @@ async function createDatabase() {
 
   try {
     const connection = await mysql.createConnection({
-      user: process.env.DB_USER,
-      password: process.env.DB_PASS,
+      user: "root",
+      password: "nicholas",
     });
     await connection.query(`CREATE DATABASE IF NOT EXISTS foodwaste`);
     console.log('Database created or already exists.');
