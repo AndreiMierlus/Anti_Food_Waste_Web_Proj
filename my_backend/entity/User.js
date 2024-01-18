@@ -1,4 +1,4 @@
-import db from '../db.js';
+import db from '../../db.js';
 import Sequelize from 'sequelize';
 
 const User = db.define('User', {
